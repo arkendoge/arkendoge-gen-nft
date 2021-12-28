@@ -3,7 +3,7 @@ import yaml
 from pathlib import Path
 
 def update_image_uri(json_string_metadata, img_id, new_cid) -> json:
-    img_uri = f'https://ipfs.io/ipfs/{new_cid}/cyberdoggo_{img_id:04d}_large.png'
+    img_uri = f'https://ipfs.io/ipfs/{new_cid}/arkendoge_{img_id:04d}_large.png'
     json_metadata = json.loads(json_string_metadata)
     json_metadata["image"] = img_uri
     return json_metadata

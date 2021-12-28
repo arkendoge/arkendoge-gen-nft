@@ -12,7 +12,7 @@ image_width: 24
 image_height: 24
 
 # Determines how big each 'pixel' gets in the final image.
-# CyberDoggos are designed in a 24x24 grid, with a scale of 14 the
+# ArkenDoge are designed in a 24x24 grid, with a scale of 14 the
 # final images becomes 336x336 - just like the original CryptoPunks.
 image_scale: 14
 
@@ -25,7 +25,7 @@ collage_height: 20
 collage_scale: 3
 
 # Prefix of generated files.
-prefix: cyberdoggo
+prefix: arkendoge
 
 # Build folder path.
 build: ./build

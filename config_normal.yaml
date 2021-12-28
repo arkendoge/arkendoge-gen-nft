@@ -64,36 +64,20 @@ ear:
 hat:
   category: Accessory
   values:
-    beanie_green_hat:
-      name: Green Beanie
-      prob: 0.12
-      src: img/hats/beanie.png
-    beanie_orange_hat:
-      name: Orange Beanie
-      prob: 0.12
-      src: img/hats/beanie_orange.png
-    cap_blue_hat:
-      name: Blue Cap
-      prob: 0.12
-      src: img/hats/cap_blue.png
-    cap_hat:
-      name: Red Cap
-      prob: 0.12
-      src: img/hats/cap.png
-    bandage_hat:
-      name: Bandage
-      prob: 0.05
-      src: img/hats/bandage.png
-    helmet_hat:
-      name: Helmet
-      prob: 0.05
-      src: img/hats/helmet.png
-    hat_hat:
-      name: Hat
-      prob: 0.12
-      src: img/hats/hat.png
+    cowboy_hat:
+      name: Cowboy Hat
+      prob: 0.1
+      src: img/hats/cowboyhat.png
+    teamcaptain_hat:
+      name: Team Captain Hat
+      prob: 0.2
+      src: img/hats/teamcapt.png
+    top_hat:
+      name: Top Hat
+      prob: 0.2
+      src: img/hats/tophat.png
     none_hat:
-      prob: 0.3
+      prob: 0.5
       src: img/hats/none.png
 
 

@@ -48,7 +48,7 @@ class Generator:
         metadata = {
             "description": "Doggo description", 
             "external_url": f'https://arkendoge.nft/{img_id}', 
-            "image": f'https://ipfs.io/ipfs/QmShZnzhaQDfhTCpZGxMDsSXkx7oSznR8LX4ARbH6sGtHX/cyberdoggo_{img_id:04d}_large.png', 
+            "image": f'https://ipfs.io/ipfs/QmShZnzhaQDfhTCpZGxMDsSXkx7oSznR8LX4ARbH6sGtHX/arkendoge_{img_id:04d}_large.png', 
             "name": f'Doggo#{img_id}',
             'attributes': attributes 
         }
@@ -185,7 +185,7 @@ def main():
     # Generate normal doggos (leave out legendary positions)
     for i in range(0, config['number'] ):
         mistakes = {}
-        # Comment this in to recreate the original cyberdoggos
+        # Comment this in to recreate the original arkendoge
         # mistakes = add_mistakes(i)
         gen.generate_normal(i, mistakes)
 
